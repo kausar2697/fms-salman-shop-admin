@@ -1,5 +1,6 @@
 import React from "react";
-import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
+import {NavLink,Link} from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -23,7 +24,8 @@ const Header = () => {
             </NavDropdown> */}
             </Nav>
             <Nav>
-              <Nav.Link href="#deets">Signin</Nav.Link>
+              <Link className="nav-link" to='/signin'>Signin</Link>
+              <Link className="nav-link" to='/signup'>Signup</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
