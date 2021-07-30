@@ -7,17 +7,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
 import { Provider } from "react-redux";
 import store from "./store";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 window.store = store;
 
 ReactDOM.render(
   <Provider store={store}>
-    <Router>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <React.StrictMode>
         <App />
       </React.StrictMode>
-    </Router>
+    </BrowserRouter>
   </Provider>,
   document.getElementById("root")
 );
