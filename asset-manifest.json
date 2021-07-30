@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fms-salman-shop-admin/static/css/main.33959195.chunk.css",
-    "main.js": "/fms-salman-shop-admin/static/js/main.f5028c1c.chunk.js",
-    "main.js.map": "/fms-salman-shop-admin/static/js/main.f5028c1c.chunk.js.map",
+    "main.js": "/fms-salman-shop-admin/static/js/main.d1b4a7c1.chunk.js",
+    "main.js.map": "/fms-salman-shop-admin/static/js/main.d1b4a7c1.chunk.js.map",
     "runtime-main.js": "/fms-salman-shop-admin/static/js/runtime-main.840efe2d.js",
     "runtime-main.js.map": "/fms-salman-shop-admin/static/js/runtime-main.840efe2d.js.map",
     "static/css/2.f7b6b452.chunk.css": "/fms-salman-shop-admin/static/css/2.f7b6b452.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.f7b6b452.chunk.css",
     "static/js/2.a61afc51.chunk.js",
     "static/css/main.33959195.chunk.css",
-    "static/js/main.f5028c1c.chunk.js"
+    "static/js/main.d1b4a7c1.chunk.js"
   ]
 }
