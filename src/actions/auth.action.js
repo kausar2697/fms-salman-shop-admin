@@ -7,7 +7,7 @@ export const login = async (user) => {
     const res = await axios.post(`/user/admin/login`, {
       ...user,
     })
-
+ console.log()
     if (res.status === 201) {
       const { access_token, user } = res.data;
       localStorage.setItem("token", access_token);
