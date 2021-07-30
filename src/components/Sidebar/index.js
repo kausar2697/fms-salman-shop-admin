@@ -93,6 +93,13 @@ const SideBar = (props) => {
                   Logout
                 </li>
               </Link>
+
+              <Link to="/signin" className="link">
+                <li className="sidebarListItem">
+                  <LockIcon />
+                  Login
+                </li>
+              </Link>
             </ul>
           </div>
         </div>
